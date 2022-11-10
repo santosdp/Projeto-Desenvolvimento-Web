@@ -1,7 +1,4 @@
 body{
-    position: relative;
-    width: 1920px;
-    height: 1080px;
     background: #090E16;
     color:#FFFFFF;
     font-family: 'Raleway';
@@ -54,6 +51,11 @@ body{
     height: 64px;
     left: 400px;
     top: 38px;
+}
+.icone-fechar h1{
+    width: 0px;
+    height: 0px;
+    color:rgba(123, 74, 226, 0.05);
 }
 #menu li{
     align-items: center;
@@ -319,8 +321,38 @@ body{
 }
 #skills{
     position: absolute;
+    width: 160px;
+    height: 45px;
     left: 250px;
-    top: 1700px;
+    top: 1600px;
+    background: rgba(123, 74, 226, 0.1);
+    border-radius: 16px;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 23px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: #7B4AE2;
+}
+.titulo-skill{
+    position: absolute;
+    width: 663px;
+    height: 60px;
+    font-weight: 800;
+    font-size: 48px;
+    line-height: 56px;
+    text-align: center;
+    color: #FFFFFF;
+}
+#titulo-hard-skill{
+    left: 628px;
+    top: 1650px;
+}
+#h-skills{
+    position: absolute;
+    left: 250px;
+    top: 1800px;
     width:1200px;
     height:600px;
     display:grid;
@@ -341,7 +373,59 @@ body{
     font-weight: 900;
     font-size: 36px;
     line-height: 42px;
-    color: #A15DCA;
+    color: #7B4AE2;
+}
+#titulo-tecnologias-interesse{
+    left: 628px;
+    top: 2370px;
+}
+#tecnologias-interesse{
+    position: absolute;
+    left: 850px;
+    top: 2570px;
+    padding-bottom: 200px;
+}
+#flutter-logo{
+    max-width: 70px;
+    max-height: 70px;
+    width: auto;
+    height: auto;
+    margin-right: 100px;
+}
+#angular-logo{
+    max-width: 80px;
+    max-height: 80px;
+    width: auto;
+    height: auto;
 }
 
- 
+@media screen and (max-width: 720px) {
+    #logo{
+        width: 0px;
+        height: 0px;
+    }
+    
+
+
+    #sociais{
+        left: 300px;
+        top: 50px;
+    }
+    #arco{
+        left: 175px;
+        top: 150px;
+    }
+    #arco1{
+        width: 400px;
+        height: 400px;
+    }
+    #arco2{
+        width: 400px;
+        height: 400px;
+        filter: blur(20px);
+    }
+    #minha-foto{
+        max-width: 320px;
+        max-height: 320px;
+    }
+}
