@@ -24,7 +24,7 @@ body{
 /* Contrução do menu */
 #barra-menu{
     position: absolute;
-    width: 1640px;
+    width: 90%;
     height: 64px;
     left: 140px;
     top: 38px;
@@ -47,9 +47,9 @@ body{
     list-style:none;
     float:left;
     position: absolute;
-    width: 1500px;
+    width: 50%;
     height: 64px;
-    left: 400px;
+    left: 50%;
     top: 38px;
 }
 .icone-fechar h1{
@@ -71,7 +71,7 @@ body{
     font-style: normal;
     color: rgba(123, 74, 226, 0.5);
     text-decoration:none;
-    padding:5px 10px;
+    padding:1px 10px;
     display:block;
 }
 .menu li a:hover{
@@ -109,7 +109,7 @@ body{
     position: absolute;
     width: 190px;
     height: 45px;
-    left: 140.01px;
+    left: 8%;
     top: 293px;
     background: rgba(123, 74, 226, 0.1);
     border-radius: 16px;
@@ -127,7 +127,7 @@ body{
     position: absolute;
     width: 411px;
     height: 120px;
-    left: 140px;
+    left: 8%;
     top: 362px;
     font-weight: 800;
     font-size: 60px;
@@ -138,7 +138,7 @@ body{
     position: absolute;
     width: 411.33px;
     height: 37px;
-    left: 140px;
+    left: 8%;
     top: 498.24px;
     font-family: 'Raleway';
     font-style: normal;
@@ -156,7 +156,7 @@ body{
 /* Foto principal */
 #arco{
     position: absolute;
-    left: 646px;
+    left: 39%;
     top: 220px;
     align-items: center; 
 }
@@ -197,7 +197,7 @@ body{
     position: absolute;
     width: 130px;
     height: 34px;
-    left: 170px;
+    left: 10%;
     top: 530px;
 }
 #sociais a{
@@ -205,14 +205,9 @@ body{
     padding:5px 30px;
     display:block;
 }
-#icones-foto{
-    position: absolute;
-    left: 646px;
-    top: 114px;
-}
 #home-figuras{
     position: absolute;
-    left: 650px;
+    left: 39%;
     top: 200px;
 }
 .circulo{
@@ -258,7 +253,7 @@ body{
     position: absolute;
     width: 196px;
     height: 44px;
-    left: 1500px;
+    left: 88%;
     top: 500px;
     border: 1px solid rgba(123, 74, 226, 0.5);
     background-color:#090E16;
@@ -278,7 +273,7 @@ body{
     position: absolute;
     width: 160px;
     height: 45px;
-    left: 853.01px;
+    left: 50%;
     top: 1100px;
     background: rgba(123, 74, 226, 0.1);
     border-radius: 16px;
@@ -296,7 +291,7 @@ body{
     position: absolute;
     width: 663px;
     height: 114px;
-    left: 853px;
+    left: 40%;
     top: 1200px;
     font-family: 'Raleway';
     font-style: normal;
@@ -309,7 +304,7 @@ body{
     position: absolute;
     width: 900px;
     height: 279.71px;
-    left: 853px;
+    left: 40%;
     top: 1350px;
     font-family: 'Raleway';
     font-style: normal;
@@ -318,12 +313,13 @@ body{
     line-height: 25px;
     color: rgba(255, 255, 255, 0.5);
     transform: rotate(-0.03deg);
+    text-align: justify;
 }
 #skills{
     position: absolute;
     width: 160px;
     height: 45px;
-    left: 250px;
+    left: 10%;
     top: 1600px;
     background: rgba(123, 74, 226, 0.1);
     border-radius: 16px;
@@ -346,15 +342,15 @@ body{
     color: #FFFFFF;
 }
 #titulo-hard-skill{
-    left: 628px;
+    left: 35%;
     top: 1650px;
 }
 #h-skills{
     position: absolute;
-    left: 250px;
+    left: 8%;
     top: 1800px;
-    width:1200px;
-    height:600px;
+    width:70%;
+    height:30%;
     display:grid;
     grid-template-columns: repeat(3, 2fr);
     grid-auto-rows: 170px;
@@ -376,13 +372,13 @@ body{
     color: #7B4AE2;
 }
 #titulo-tecnologias-interesse{
-    left: 628px;
+    left: 35%;
     top: 2370px;
 }
 #tecnologias-interesse{
     position: absolute;
-    left: 850px;
-    top: 2570px;
+    left: 45%;
+    top: 2500px;
     padding-bottom: 200px;
 }
 #flutter-logo{
@@ -400,20 +396,14 @@ body{
 }
 
 @media screen and (max-width: 720px) {
-    #logo{
-        width: 0px;
-        height: 0px;
-    }
-    
-
 
     #sociais{
-        left: 300px;
-        top: 50px;
+        left: 40%;
+        top: 150px;
     }
     #arco{
-        left: 175px;
-        top: 150px;
+        left: 20%;
+        top: 250px;
     }
     #arco1{
         width: 400px;
@@ -427,5 +417,102 @@ body{
     #minha-foto{
         max-width: 320px;
         max-height: 320px;
+    }
+    #saudacao{
+        position: absolute;
+        left: 10%;
+        top: 700px;    
+    }
+    #apresentacao{
+        left: 15%;
+        top: 750px;
+    }
+    #titulo{
+        left: 15%;
+        top: 860px;
+    }
+    #btn{
+        position: absolute;
+        width: 196px;
+        height: 44px;
+        left: 35%;
+        top: 900px;
+    }
+    #resumo{    
+        left: 15%;
+        top: 1050px;
+    }
+    #sobre-meunome {
+        left: 10%;
+        top: 1100px;
+        width: 400px;
+        height: 200px;
+        font-size: 40px;
+    }  
+    #sobre-apresentacao {
+        width: 450px;
+        height: 500px;
+        left: 15%;
+        top: 1225px;
+    }
+    #skills {
+        left: 10%;
+        top: 1550px;
+    }
+    .titulo-skill {
+        font-size: 40px;
+    }
+    #titulo-hard-skill {
+        left: 2%;
+        top: 1650px;
+    }
+    #h-skills {
+        position: absolute;
+        left: 8%;
+        top: 1700px;
+        width: 70%;
+        height: 30%;
+        display: grid;
+        grid-template-columns: repeat(1, 2fr);
+        grid-auto-rows: 170px;
+        grid-gap: 5px 140px;
+        padding: 20px 10px;
+    }
+    .circulo {
+        width: 0px;
+        height: 0px;
+    }
+
+    #javascript {
+        width: 0px;
+        height: 0px;
+    }
+    #subcirculo2 {
+
+        left: 0px;
+        top: 0px;
+    }
+    #csharp {
+        width: 0px;
+        height: 0px;
+    }
+    #subcirculo3 {
+
+        left: 0px;
+        top: 0px;
+    }
+    #mysql {
+        width: 0px;
+        height: 0px;
+    }
+    #titulo-tecnologias-interesse {
+        left: 1%;
+        top: 3300px;
+    }
+
+    #tecnologias-interesse {
+        left: 30%;
+        top: 3400px;
+        padding-bottom: 100px;
     }
 }
